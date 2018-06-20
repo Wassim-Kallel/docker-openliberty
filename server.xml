@@ -1,0 +1,11 @@
+<server description="Sample Liberty server">
+
+  <featureManager>
+           <feature>servlet-3.1</feature>
+  </featureManager>
+
+  <httpEndpoint httpPort="${default.http.port}" httpsPort="${default.https.port}"
+      id="defaultHttpEndpoint" host="*" />
+
+  <webApplication location="sample.war" contextRoot="${app.context.root}"/>
+</server>

@@ -1,0 +1,5 @@
+-Xms128m
+-Xmx256m
+-Ddefault.http.port=9080
+-Ddefault.https.port=9443
+-Dapp.context.root=sample
